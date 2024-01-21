@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #f0e3ca;
+}
+h3 {
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  padding: 1rem;
+  color: #f0e3ca;
+}
+.container {
+  margin: auto;
+  background-color: #1b1a17;
+  width: 600px;
+  min-height: 400px;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.input-list {
+  display: grid;
+  padding: 0.3rem;
+  gap: 0.4rem;
+  height: 50px;
+}
+
+.input-list input {
+  padding: 0.5rem 0.3rem;
+  width: 350px;
+  border-radius: 5px;
+  border: 2px solid #a35709;
+  background-color: #1f1e1b;
+  color: #f0e3ca;
+}
+
+.input-list input:hover,
+input:focus {
+  border-color: #ff8303;
+  background-color: #1b1a17;
+  outline: none;
+}
+
+input::placeholder {
+  color: #f0e3ca8a;
+}
+
+.btn {
+  height: 77px;
+  width: 77px;
+  font-size: 50px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 2px solid #a35709;
+  background-color: #1f1e1b;
+  color: #a35709;
+  cursor: pointer;
+}
+.btn:hover {
+  border-color: #ff8303;
+  color: #ff8303;
+}
+.btn:active {
+  border-color: #ff8303;
+  color: #ff8303;
+  background-color: #1b1a17;
+}
+
+.list-container {
+  color: #f0e3ca;
+  display: flex;
+  margin: auto;
+  margin-bottom: 0.4rem;
+  border: 2px solid #a35709;
+  border-radius: 8px;
+  width: 430px;
+  background-color: #1f1e1b;
+}
+.list-container:hover {
+  border-color: #ff8303;
+  transform: scale(1.01);
+}
+
+.list-container h3 {
+  border-top: 2px solid #ff8303;
+  border-bottom: 2px solid #ff8303;
+  padding: 0.3rem;
+}
+.list {
+  width: 430px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list p {
+  font-size: 15px;
+  padding-top: 0.4rem;
+  display: flex;
+}
+
+.delete-btn {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #a35709;
+  background-color: #1f1e1b;
+  color: #a35709;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  border-color: #ff8303;
+  background-color: #1b1a17;
+  color: #ff8303;
+}
